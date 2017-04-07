@@ -1,0 +1,162 @@
+\documentclass{beamer}
+
+\mode<presentation>
+{
+  \usetheme{Darmstadt}    
+  \usecolortheme{default}
+  \usefonttheme{serif} 
+  \setbeamertemplate{navigation symbols}{}
+  \setbeamertemplate{caption}[numbered]
+} 
+
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage{caption}
+
+%%%%%%%%%%%%%%%%%%%%% "Titelpagina"
+
+\title[Your Short Title]{Project Chilly Cooler}
+\author{Jerry Tran}
+\institute{Rotterdam University of Applied Sciences}
+\date{06-04-2017}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%% Inleiding
+\section{Introduction}
+
+\begin{frame}{Introduction}
+
+  \includegraphics[scale = 1]{koffie.png}
+  \centering
+  
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%% Dia 3
+\section{Idee}
+
+\begin{frame}{Het Idee}
+
+	\begin{itemize}
+
+		\item Variant Walking Fridge: Chilly Cooler
+			\begin{figure}
+			\centering
+        
+			\begin{minipage}{.5\textwidth}
+  				\centering
+  				\includegraphics[width=1\linewidth]{acbot.png}
+			\end{minipage}%
+		
+      	  \begin{minipage}{.5\textwidth}
+  				\centering
+  				\includegraphics[width=1\linewidth]{cooler.png}
+			\end{minipage}
+        
+			\end{figure}
+	\end{itemize}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%% Dia 4
+\section{Product Backlog}
+
+		\begin{frame}{Product Backlog}
+			\includegraphics[scale = 0.4]{Productbacklog1}
+			\centering
+		\end{frame}
+    
+	\subsection{Productbacklog deel 2}
+    
+		\begin{frame}{Product Backlog}
+			\includegraphics[scale = 0.4]{Productbacklog2}
+			\centering
+		\end{frame}
+        
+%%%%%%%%%%%%%%%%%%% Dia 5
+\section{Voortgang}
+
+	\begin{frame}{Voortgang}
+
+	\begin{itemize}
+		\item Order
+		\item Koeling en Afgifte
+		\item Bezorging
+    
+			\begin{figure}[!htb]
+			\minipage{0.15\textwidth}
+ 			\includegraphics[width=\linewidth]{UI.png}
+			\endminipage\hfill
+			\minipage{0.15\textwidth}
+ 			\includegraphics[width=\linewidth]{Arrow.png}
+			\endminipage\hfill
+			\minipage{0.15\textwidth}
+ 			\includegraphics[width=\linewidth]{Cool.png}
+			\endminipage
+			\minipage{0.15\textwidth}
+			\includegraphics[width=\linewidth]{Arrow.png}
+			\endminipage\hfill
+			\minipage{0.3\textwidth}
+			\includegraphics[width=\linewidth]{acbot.png}
+			\endminipage\hfill
+			\end{figure}
+            
+	\end{itemize}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%% Dia 6
+
+\section{Sprint week 9}
+
+	\begin{frame}{Sprint week 9}
+    
+		\includegraphics[scale = 0.5]{sprint.png}
+		\centering
+        
+	\end{frame}
+
+%%%%%%%%%%%%%%%%%% Dia 7
+
+\section{Eindresultaat}
+
+	\begin{frame}{Eindresultaat}
+
+
+		\begin{figure}[!htb]
+        
+		\minipage{0.1\textwidth}
+		  \includegraphics[width=\linewidth]{UI.png}
+		  \caption*{UI}
+		\endminipage\hfill
+		\minipage{0.1\textwidth}
+      \includegraphics[width=\linewidth]{Arrow.png}
+		\endminipage\hfill
+		\minipage{0.1\textwidth}
+		  \includegraphics[width=\linewidth]{Cool.png}
+		  \caption*{Cooler}
+		\endminipage
+		\minipage{0.1\textwidth}
+			\includegraphics[width=\linewidth]{Arrow.png}
+		\endminipage\hfill
+		\minipage{0.3\textwidth}
+			\includegraphics[width=\linewidth]{acbot.png}
+		    \caption*{Delivery by bot}
+		\endminipage\hfill
+		\minipage{0.1\textwidth}
+			\includegraphics[width=\linewidth]{Arrow.png}
+		\endminipage\hfill
+		\minipage{0.1\textwidth}
+			\includegraphics[width=\linewidth]{User.png}
+  		  \caption*{User}
+		\endminipage\hfill
+
+		\end{figure}
+
+
+
+\end{frame}
+
+\end{document}

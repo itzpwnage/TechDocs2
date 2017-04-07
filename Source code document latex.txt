@@ -1,0 +1,113 @@
+\documentclass[a4paper]{article}
+
+%% Language and font encodings
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{tgcursor}
+\usepackage{fancyhdr}
+
+%%custom font
+\usepackage{mathptmx}
+\pagestyle{fancy}
+\fancyhf{}
+\setlength\headheight{15pt}
+\fancyhead[L]{Student ID: 091690, Jerry Tran}
+\fancyhead[R]{Hogeschool Rotterdam}
+\fancyfoot[R]{Page \thepage}
+
+\fancypagestyle{plain}{%
+  \fancyhf{}%
+  \setlength\headheight{15pt}
+  \fancyhead[L]{Author: Jerry Tran}
+  \fancyhead[R]{Hogeschool Rotterdam}
+  \fancyfoot[R]{Page \thepage}
+  }
+
+%% margins
+\usepackage[a4paper,top=3cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+%%packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{apacite}
+\usepackage{float}
+
+
+
+\title{A report on a possible solution for transporting elderly within a healthcare facility.}
+\author{Jerry Tran}
+
+\begin{document}
+\maketitle
+
+
+\begin{figure}
+\centering
+\includegraphics[width=0.3\textwidth]{wheelchair.pdf}
+\end{figure}
+
+%%Inhoudsopgave automatisch gegenereerd
+\newpage
+\tableofcontents
+\newpage
+
+\section{Introduction}
+
+Healthcare facilities are having a hard time with maintaining enough human resources, due to aging. This is one of the main reasons why the elderly are not receiving their required attention. But, with the help of recent technologies, less caregivers are needed to deliver the same amount of attention. Moreover, a lot of money can be saved with the appliance of today’s inventions. 
+
+\begin{figure}[H]
+\centering
+\includegraphics{table.pdf}
+\caption{Work pressure within healthcare}
+\cite{CentraalBureauvoorStatistiek}
+\end{figure}
+
+The following problem and its solution will be highlighted in the following report: Caregivers are spending too much time driving around the elderly. This is a relatively simple task. Today’s technology will make it possible to remove the need of a caregiver while still being able to get those in need of care to their destination within a healthcare facility. 
+The smart-wheelchair will be introduced as solution for this problem. The elderly will be able to get to where they want to go within the facility, without the help of a caregiver. The elderly can either drive the wheelchair themselves or activate the self-driving function. This could be a long-term investment. 
+The wheelchair will be equipped with different sensors, therefore making it able to observe all objects within its vicinity. This will lessen the probability of collision. 
+A practice example (and a common problem encountered in some healthcare facilities): Common wheelchairs that collide with the doors from elevators because of the elderly not paying attention. This brings damage to those doors, making it impossible for them to open properly. With the help of the smart wheelchair, these kinds of structural damages could be prevented
+
+\newpage
+
+\section{The sensors used for the wheelchair}
+%%Subsectie
+\subsection{Ultrasonic sensors}
+One of these sensors will be an ultrasonic sensor. This sensor is a device that measures the distance to an object by using sound waves. It records the elapsed time between the emitted sound wave and the sound wave bouncing back. Thus measuring the distance between the sensor and the object the sound wave bounced back from. \cite{CarnegieMellonRoboticsAcademy} Equipping this sensor on the front of the wheelchair, makes it possible to stop in time before it could collide with an object. 
+%%Subsectie
+\subsection{LiDAR}
+The wheelchair could also be equipped with the following sensor to increase its perception of its surroundings. The LiDAR sensor (Light Detection and Ranging). The LiDAR sensor fires rapid pulses of a laser light and measures the amount of time before it bounces back \cite{LiDARUK}. It operates almost similar to the ultrasonic sensor, but it instead of emitting sound waves, it emits light, therefore making it more accurate. This is because light is less affected by noise than sound. 
+Besides the sensors, each tire should be equipped with an engine to motorize the wheelchair. This excludes the need of a caregiver driving the wheelchair around, making it possible for the elderly to be driven around themselves.
+%%Subsectie
+\subsection{Innovation}
+Practice shows that this specific wheelchair has not been introduced yet. Healthcare facilities were visited to find out about this problem. These healthcare facilities showed that money and time could be saved by removing the human factor when it comes to transporting the elderly. Tasks within the facility can be split up more efficiently, as more human resources can be spent, because transporting the elderly no longer requires a caregiver.
+%%Subsectie
+\subsection{Cons}
+It would require a lot of money to apply these kinds of sensors as they could cost greatly. Especially the LiDAR modules \cite{RobotShop} . Moreover, a wheelchair would have to be equipped with more than one sensor to maximize its perception. The amount of wheelchairs within a facility should be considered as well. And it would be hard to fine tune and calibrate all sensors to operate at the same time.
+%%Subsectie
+\subsection{Pros}
+But on the bright side, this would be a long-term investment. And it could prevent even more costs. Like the example mentioned in the introduction, doors from elevators could be saved. This is a ludicrous, yet rough example of encountered problems. 
+%%Subsectie
+\subsection{Ethical proposition}
+There should be no problems when asked whether the solution is ethical or not. Because none of the elderly will be put at disadvantage with making use of this solution for the problem. However they will get less interaction with the caregiver. But this will be compensated with the fact that the caregivers will have more time to give attention to the elderly when needed, because they will not be spending time driving them around the facility.
+\newpage
+
+\section{Conclusion}
+
+So summarize all of the above, starting with the main problem: Healthcare facilities recently are having problems maintaining enough manpower and money to give all the elderly the attention they need. 
+To narrow the problem down, an invention needs to be applied for one specific problem. In this case it is transporting the elderly within the facility with the necessity of a caregiver.
+By introducing such an invention as the smart-wheelchair, the elderly can now roam freely within the facility without having a caregiver driving them around. Time and money can be spent more efficiently on labour intensive tasks.   
+This smart-wheelchair will be equipped with different kinds of sensors, making it possible to perceive objects within its vicinity and respond on these impulses it gets from the sensors. Damages that should not even occur could be prevented with this technique. This will decrease the costs as well.
+The product should be introduced, as the problem really exists in healthcare facilities. Facilities have been visited to learn that this problem consists. Therefore the smart-wheelchair is introduced to attack this problem.
+
+\newpage
+
+
+
+
+\bibliographystyle{apacite}
+\bibliography{References}
+
+\end{document}
